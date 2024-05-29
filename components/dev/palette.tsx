@@ -1,0 +1,29 @@
+import { Fragment } from 'react';
+import {
+  Category,
+  Component,
+  Variant,
+  Palette,
+} from '@react-buddy/ide-toolbox-next';
+import ChakraPalette from '@react-buddy/palette-chakra-ui';
+import AntdPalette from '@react-buddy/palette-antd';
+
+export const PaletteTree = () => (
+  <Palette>
+    <Category name="App">
+      <Component name="Loader">
+        <Variant>
+          <ExampleLoaderComponent />
+        </Variant>
+      </Component>
+    </Category>
+    <AntdPalette />
+    <ChakraPalette />
+  </Palette>
+);
+
+export function ExampleLoaderComponent() {
+  return (
+    <Fragment>Loading...</Fragment>
+  );
+}
