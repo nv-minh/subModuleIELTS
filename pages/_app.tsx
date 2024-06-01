@@ -14,7 +14,7 @@ function App({ Component, pageProps }) {
                   useInitialHook={useInitial}
       >
         <Component {...pageProps} />
-      </DevSupport>;
+      </DevSupport>
     </ChakraProvider>
   );
 }

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
 
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+  import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import { useTranslation } from 'next-i18next';
 import { useLanguage } from './LanguageManager';
 

@@ -226,21 +226,6 @@ false              }
       >
         <VStack w={'100%'} spacing={2} alignItems="flex-start">
           <HStack alignItems="flex-start" w="100%" gap={2}>
-            <Text>AI Type: </Text>
-            <Select
-              size={'sm'}
-              w={40}
-              value={topicType}
-              onChange={(e) => setTopicType(e.target.value)}
-            >
-              {topicTypes.map((type) => (
-                <option key={type} value={type}>
-                  {type}
-                </option>
-              ))}
-            </Select>
-          </HStack>
-          <HStack alignItems="flex-start" w="100%" gap={2}>
             <Text>Question: </Text>
             <Textarea
               value={question}
