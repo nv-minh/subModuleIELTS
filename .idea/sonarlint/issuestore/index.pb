@@ -20,8 +20,6 @@ I
 pages/api/chat/message.ts,0/4/04bf5f8290f048c2a2c51352d80e62732336b9ac
 B
 pages/api/hello.ts,1/a/1a90d01be90e8d5774c682e9d222e618e3273e9b
-4
-.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 I
 components/TalkButton.tsx,9/4/948aee086e2cfe58a8f3c0fc563424132948e59b
 F
@@ -70,3 +68,5 @@ P
  public/locales/en-US/common.json,9/a/9a978575d041e8f21fafcf3d64f2795d632c289b
 =
 tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a

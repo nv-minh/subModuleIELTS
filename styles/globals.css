@@ -1,6 +1,72 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles */
+* {
+  @apply text-gray-700;
+}
+
+table {
+  @apply bg-white my-6 border-collapse border border-gray-300;
+}
+
+th {
+  @apply border border-gray-300 py-2 px-4 text-left font-bold;
+}
+
+td {
+  @apply border border-gray-300 py-2 px-4;
+}
+
+.tab {
+  @apply rounded bg-blue-200 px-2 py-1;
+}
+
+.form-field {
+  @apply flex flex-col w-full;
+}
+
+.input {
+  @apply rounded-2xl p-4;
+}
+
+.button--primary {
+  @apply bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded px-4 py-2 min-w-[160px];
+}
+
+.button--secondary {
+  @apply bg-gray-400 text-white rounded px-4 py-2 min-w-[160px];
+}
+
+.nav__item {
+  @apply px-2 py-1 rounded-lg backdrop-blur-lg mb-4 text-start text-gray-500 hover:bg-white cursor-pointer;
+}
+
+.nav__item--active {
+  @apply border-2 border-blue-500 bg-white text-blue-500;
+}
+
+.icon-button {
+  @apply bg-white inline-block p-5 rounded-full cursor-pointer;
+}
+
+.tab {
+  @apply px-4 py-2 hover:bg-white cursor-pointer bg-transparent text-gray-500 rounded-none;
+}
+
+.tab--active {
+  @apply bg-white text-blue-500 border-2 border-blue-500;
+}
+
+.tab__left {
+  @apply rounded-l-xl;
+}
+
+.tab__right {
+  @apply rounded-r-xl;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,9 +84,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
+
 .landing-container {
   background: linear-gradient(135deg, #4a00e0, #8e2de2);
   color: white;
@@ -105,6 +171,7 @@ body {
   max-width: 100%;
   height: auto;
 }
+
 .ielts-container {
   background: linear-gradient(135deg, #0093E9, #80D0C7);
   color: white;
